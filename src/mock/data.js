@@ -38,7 +38,7 @@ export const projectsData = [
     title: 'Committee For Children',
     info:
       'At Committee For Children our vision is "Safe children thriving in a peaceful world" and our north star goal is to "Positively transform the social-emotional well-being off 100 million chidren annually by 2028", currently, we reach over 15 million children',
-    info2: 'Built with Next.js, React and Azure cloud services',
+    info2: 'Built with React, Next.js, Node, MSSQL and Azure cloud services',
     url: 'https://www.secondstep.org',
     repo: '', // if no repo, the button will not show up
   },
@@ -52,6 +52,18 @@ export const projectsData = [
     url: 'https://resonatetogether.io',
     repo: '', // if no repo, the button will not show up
   },
+
+  {
+    id: nanoid(),
+    img: 'tonebirds.jpg',
+    title: 'Tone Birds',
+    info:
+      'Tone Birds is a music platform. Its for people who love music, and we pay them to give new artists a chance. Its for artists, we cut the cost of getting new listeners by 96%.',
+    info2: 'Beta Coming Summer 2021 - sign up to learn more by clicking the link below',
+    info3: 'Built using React Native, GraphQL, AWS Amplify, and Expo',
+    url: 'https://tonebirds.com',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'finleycode.jpg',
@@ -62,12 +74,23 @@ export const projectsData = [
     url: 'http://thefinleycode.com',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'albums.jpg',
+    title: 'Published Music',
+    info: 'Flyjack is a funk band I played organ and keys with in Austin Texas',
+    info2: 'Roman Holiday was a rock band based out of Tacoma, WA in the vein of Kings of Leon',
+    info3:
+      'Lucy Sings is a collaboration between myself and Lucy horton and sounds like Regina Spektor',
+    url: 'https://open.spotify.com/playlist/2Wqqb9YP2HfqjTe5eVHZJt?si=7nb9rPPzTZuft4SlpkozqA',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Want to talk code, music or work with me? Awesome!',
-  btn: '',
+  cta: 'Want to talk code, music or hire me?',
+  btn: 'Email Me',
   email: 'nigel@unfilteredbuild.com',
 };
 

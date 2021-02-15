@@ -78,8 +78,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'albums.jpg',
     title: 'Published Music',
-    info: 'Flyjack is a funk band I played organ and keys with in Austin Texas',
-    info2: 'Roman Holiday was a rock band based out of Tacoma, WA in the vein of Kings of Leon',
+    info: 'Flyjack is a funk band I played organ and keys with in Austin, TX',
+    info2:
+      'Roman Holiday is a rock band I played synth/piano/organ with based out of Tacoma, WA in the vein of Kings of Leon',
     info3:
       'Lucy Sings is a collaboration between myself and Lucy horton and sounds like Regina Spektor',
     url: 'https://open.spotify.com/playlist/2Wqqb9YP2HfqjTe5eVHZJt?si=7nb9rPPzTZuft4SlpkozqA',

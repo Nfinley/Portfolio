@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphThree:
     'With a passion and background in music and copyright law, I keep music close as I am currently developing an application aimed at helping artists interact directly with their fans and gain new ones.',
   paragraphFour:
-    'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and dreamers to build their next big thing',
+    'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and dreamers to build their next big thing.',
   resume:
     'https://res.cloudinary.com/thefinleycode/image/upload/v1602774500/Nigel_Finley_Resume_2020_mdkgqq.pdf', // if no resume, the button will not show up
 };
@@ -58,10 +58,20 @@ export const projectsData = [
     img: 'tonebirds.jpg',
     title: 'Tone Birds',
     info:
-      'Tone Birds is a music platform. Its for people who love music, and we pay them to give new artists a chance. Its for artists, we cut the cost of getting new listeners by 96%.',
+      "Tone Birds is a music platform. It's for people who love music, and we pay them to give new artists a chance. It's for artists, we cut the cost of getting new listeners by 96%.",
     info2: 'Beta Coming Summer 2021 - sign up to learn more by clicking the link below',
     info3: 'Built using React Native, GraphQL, AWS Amplify, and Expo',
     url: 'https://tonebirds.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'cardgiants.jpg',
+    title: 'Card Giants',
+    info:
+      'Card Giants is an e-commerce site speciallizing in sales of sports cards and memorabilia',
+    info2: 'Built using PHP, Wordpress and WooCommerce',
+    url: 'https://cardgiants.com',
     repo: '', // if no repo, the button will not show up
   },
   {

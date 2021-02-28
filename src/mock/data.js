@@ -5,6 +5,8 @@ export const headData = {
   title: 'Nigel Finley Portfolio', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio website', // e.g: Welcome to my website
+  image:
+    'https://res.cloudinary.com/thefinleycode/image/upload/v1614479434/vinyl_background_y0zudr.png',
 };
 
 // HERO DATA

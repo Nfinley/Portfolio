@@ -17,6 +17,13 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Nigel Finley Portfolio" />
+        <meta property="og:url" content="https://nigelfinley.com/" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/thefinleycode/image/upload/v1614479434/vinyl_background_y0zudr.png"
+        />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}

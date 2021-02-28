@@ -17,8 +17,8 @@ export default function HTML({
     <html {...htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
-        <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Nigel Finley Portfolio" />
+        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nigelfinley.com/" />
         <meta
           property="og:description"

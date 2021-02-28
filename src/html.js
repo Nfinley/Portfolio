@@ -21,9 +21,15 @@ export default function HTML({
         <meta property="og:site_name" content="Nigel Finley Portfolio" />
         <meta property="og:url" content="https://nigelfinley.com/" />
         <meta
+          property="og:description"
+          content="Portfolio website of Nigel Finley: Software Engineer and Musician"
+        />
+        <meta
           property="og:image"
           content="https://res.cloudinary.com/thefinleycode/image/upload/v1614479434/vinyl_background_y0zudr.png"
         />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1280" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}

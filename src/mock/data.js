@@ -29,7 +29,7 @@ export const aboutData = {
   paragraphFour:
     'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and dreamers to build their next big thing.',
   resume:
-    'https://res.cloudinary.com/thefinleycode/image/upload/v1614636207/Nigel_Finley_Resume_2021_szx2sc.pdf', // if no resume, the button will not show up
+    'https://res.cloudinary.com/thefinleycode/image/upload/v1614636470/Nigel_Finley_Resume_di5jqo.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

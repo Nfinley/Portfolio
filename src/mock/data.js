@@ -35,16 +35,30 @@ export const aboutData = {
 // PROJECTS DATA
 export const projectsData = [
   {
+    btnTxt: '',
     id: nanoid(),
     img: 'secondstep.jpg',
     title: 'Committee For Children',
     info:
-      'At Committee For Children our vision is "Safe children thriving in a peaceful world" and our north star goal is to "Positively transform the social-emotional well-being off 100 million chidren annually by 2028", currently, we reach over 15 million children',
+      'At Committee For Children our vision is "Safe children thriving in a peaceful world" and our north star goal is to "Positively transform the social-emotional well-being off 100 million chidren annually by 2028", currently, we reach over 10 million children',
     info2: 'Built with React, Next.js, Node, MSSQL and Azure cloud services',
     url: 'https://www.secondstep.org',
     repo: '', // if no repo, the button will not show up
   },
   {
+    btnTxt: 'Sign Up for Beta',
+    id: nanoid(),
+    img: 'tonebirds.jpg',
+    title: 'Tone Birds',
+    info:
+      "Tone Birds is a music platform. It's designed to help new artists receive feedback directly from real people and succeed in a crowded landscape by using a crowdsourcing model reducing the cost of acquiring new fans by 96%",
+    info2: 'Beta Coming Summer 2021',
+    info3: 'Built using React Native, GraphQL, AWS Amplify, and Expo',
+    url: 'https://tonebirds.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    btnTxt: '',
     id: nanoid(),
     img: 'resonate.jpg',
     title: 'Resonate',
@@ -54,19 +68,8 @@ export const projectsData = [
     url: 'https://resonatetogether.io',
     repo: '', // if no repo, the button will not show up
   },
-
   {
-    id: nanoid(),
-    img: 'tonebirds.jpg',
-    title: 'Tone Birds',
-    info:
-      "Tone Birds is a music platform. It's for people who love music, and we pay them to give new artists a chance. It's for artists, we cut the cost of getting new listeners by 96%.",
-    info2: 'Beta Coming Summer 2021 - sign up to learn more by clicking the link below',
-    info3: 'Built using React Native, GraphQL, AWS Amplify, and Expo',
-    url: 'https://tonebirds.com',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
+    btnTxt: '',
     id: nanoid(),
     img: 'cardgiants.jpg',
     title: 'Card Giants',
@@ -77,22 +80,25 @@ export const projectsData = [
     repo: '', // if no repo, the button will not show up
   },
   {
+    btnTxt: '',
     id: nanoid(),
     img: 'finleycode.jpg',
     title: 'The Finley Code',
     info:
       'To document my thoughts on the intersection of code and music and everything in between, I maintain a blog called The Finley Code.',
-    info2: 'Built using the Ghost blog platform',
+    info2: 'Built using the Ghost blog platform and self-hosted on Digital Ocean',
     url: 'http://thefinleycode.com',
     repo: '', // if no repo, the button will not show up
   },
   {
+    btnTxt: 'Listen in Spotify',
     id: nanoid(),
     img: 'albums.jpg',
     title: 'Published Music',
-    info: 'Flyjack is a funk band I played organ and keys with in Austin, TX',
+    info:
+      'Flyjack is a funk band I played organ and keys with in Austin, TX in the vein of New Mastersounds/Robert Walter/Skull Snaps',
     info2:
-      'Roman Holiday is a rock band I played synth/piano/organ with based out of Tacoma, WA in the vein of Kings of Leon',
+      'Roman Holiday is a rock band I played synth/piano/organ with based out of Tacoma, WA in the vein of Kings of Leon/Killers',
     info3:
       'Lucy Sings is a collaboration between myself and Lucy horton and sounds like Regina Spektor',
     url: 'https://open.spotify.com/playlist/2Wqqb9YP2HfqjTe5eVHZJt?si=7nb9rPPzTZuft4SlpkozqA',

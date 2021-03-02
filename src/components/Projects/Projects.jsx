@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Portfolio" />
           {projects.map((project) => {
-            const { title, info, info2, info3, url, repo, img, id } = project;
+            const { btnTxt, title, info, info2, info3, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -57,7 +57,7 @@ const Projects = () => {
                           className="cta-btn cta-btn--hero"
                           href={url || '#!'}
                         >
-                          See Live
+                          {btnTxt || 'See Live'}
                         </a>
                       )}
 

@@ -29,7 +29,7 @@ export const aboutData = {
   paragraphFour:
     'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and dreamers to build their next big thing.',
   resume:
-    'https://res.cloudinary.com/thefinleycode/image/upload/v1614636470/Nigel_Finley_Resume_di5jqo.pdf', // if no resume, the button will not show up
+    'https://res.cloudinary.com/thefinleycode/image/upload/v1630189574/Nigel_Finley_Resume_2021_xsmugj.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -51,8 +51,8 @@ export const projectsData = [
     img: 'tonebirds.jpg',
     title: 'Tone Birds',
     info:
-      "Tone Birds is a music platform. It's designed to help new artists receive feedback directly from real people and succeed in a crowded landscape by using a crowdsourcing model reducing the cost of acquiring new fans by 96%",
-    info2: 'Beta Coming Summer 2021',
+      'ToneBirds is a platform connecting musicians to verified music fans for 90% less cost than traditional marketing channels',
+    info2: 'Beta is out! Contact me at nigel@tonebirds.com if you would like to participate',
     info3: 'Built using React Native, GraphQL, AWS Amplify, and Expo',
     url: 'https://tonebirds.com',
     repo: '', // if no repo, the button will not show up
@@ -91,7 +91,7 @@ export const projectsData = [
     repo: '', // if no repo, the button will not show up
   },
   {
-    btnTxt: 'Listen in Spotify',
+    btnTxt: 'Listen on Spotify',
     id: nanoid(),
     img: 'albums.jpg',
     title: 'Published Music',

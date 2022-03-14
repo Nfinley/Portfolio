@@ -46,15 +46,25 @@ export const projectsData = [
     repo: '', // if no repo, the button will not show up
   },
   {
-    btnTxt: 'Sign Up for Beta',
+    btnTxt: 'Listen Now',
+    id: nanoid(),
+    img: 'podcast_banner.png',
+    title: 'Building With People For People: The Unfiltered Build Podcast',
+    info:
+      'As the host of Building With People For People podcast, every other week I am joined by guests from all reaches of the software world to discuss their unique journeys, why we build software, discussions on a specific software related topic, and we examine problems they are solving through the products they are building',
+    url: 'https://anchor.fm/buildingwithpeople',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    btnTxt: 'Experiment with Beta',
     id: nanoid(),
     img: 'tonebirds.jpg',
     title: 'Tone Birds',
     info:
       'ToneBirds is a platform connecting musicians to verified music fans for 90% less cost than traditional marketing channels',
-    info2: 'Beta is out! Contact me at nigel@tonebirds.com if you would like to participate',
+    info2: 'Beta is out! It is still in development and it not fully featured yet ',
     info3: 'Built using React Native, GraphQL, AWS Amplify, and Expo',
-    url: 'https://tonebirds.com',
+    url: 'https://beta.tonebirds.com',
     repo: '', // if no repo, the button will not show up
   },
   {

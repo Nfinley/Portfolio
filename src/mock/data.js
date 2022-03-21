@@ -63,7 +63,7 @@ export const projectsData = [
     info:
       'ToneBirds is a platform connecting musicians to verified music fans for 90% less cost than traditional marketing channels',
     info2: 'Beta is out! It is still in development and it not fully featured yet ',
-    info3: 'Built using React Native, GraphQL, AWS Amplify, and Expo',
+    info3: 'Built using React Native, GraphQL, Typescript, AWS Amplify, and Expo',
     url: 'https://beta.tonebirds.com',
     repo: '', // if no repo, the button will not show up
   },

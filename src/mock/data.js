@@ -27,7 +27,7 @@ export const aboutData = {
   paragraphThree:
     'With a passion and background in music and copyright law, I keep music close as I am currently developing an application aimed at helping artists interact directly with their fans and gain new ones.',
   paragraphFour:
-    'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and dreamers to build their next big thing.',
+    'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and dreamers to build their next big thing. I currently host and produce a podcast called Building With People For People',
   resume:
     'https://res.cloudinary.com/thefinleycode/image/upload/v1630189574/Nigel_Finley_Resume_2021_xsmugj.pdf', // if no resume, the button will not show up
 };

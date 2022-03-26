@@ -12,7 +12,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Nigel Finley',
-  name: 'Software Engineer and Musician',
+  name: 'Software Engineer. Musician. Podcast Host.',
   // subtitle: 'Software Engineer and Musician',
   cta: 'About Me',
 };

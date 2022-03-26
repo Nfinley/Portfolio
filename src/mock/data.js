@@ -52,6 +52,7 @@ export const projectsData = [
     title: 'Building With People For People: The Unfiltered Build Podcast',
     info:
       'As the host of Building With People For People podcast, every other week I am joined by guests from all reaches of the software world to discuss their unique journeys, why we build software, discussions on a specific software related topic, and we examine problems they are solving through the products they are building',
+    info2: 'Built with Hugo and AWS Amplify',
     url: 'https://anchor.fm/buildingwithpeople',
     repo: '', // if no repo, the button will not show up
   },

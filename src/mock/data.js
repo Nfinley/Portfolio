@@ -12,7 +12,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Nigel Finley',
-  name: 'Software Engineer. Musician. Podcast Host.',
+  name: 'Software Engineer. Father. Musician. Podcast Host.',
   // subtitle: 'Software Engineer and Musician',
   cta: 'About Me',
 };
@@ -21,26 +21,36 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I am a passionate and driven software developer with a proven track record of technical leadership,  product delivery, and strategic expertise with a focus on delighting users through beautiful and accessible web applications.',
+    'I am a passionate and driven software engineer with a proven track record of technical leadership,  product delivery, and strategic expertise with a focus on delighting users through beautiful and accessible web applications.',
   paragraphTwo:
     'Currently, I work for a non profit Committee For Children as a principal engineer. I lead technical strategy across three engineering teams to deliver high quality features and user experience for our social emotional learning curriculum.',
   paragraphThree:
-    'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and dreamers to build their next big thing.',
+    'To stay busy, I run a dev consulting firm called Unfiltered Build working with creators and visionaries to bring their next big ideas to life.',
   paragraphFour:
-    ' Additionally, I am the co-founder of Get SPACE, a developer feedback platform that makes collecting qualitative metrics a breeze. I am also host of the podcast Building With People For People that focuses on the human aspect of software.',
+    ' Additionally, I am the co-founder of Clairity, a slack native developer process tooling platform that makes running agile teams a breeeze. I am also host of the podcast Building With People For People that focuses on the human aspect of software.',
   resume:
-    'https://res.cloudinary.com/thefinleycode/image/upload/v1695741628/Nigel_Finley_Resume_2023_ipydnd.pdf', // if no resume, the button will not show up
+    'https://res.cloudinary.com/thefinleycode/image/upload/v1737855359/Resume/Nigel_Finley_Resume_2025_cptgw4.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
+    btnTxt: 'Try It Now',
+    id: nanoid(),
+    img: 'clairity.png',
+    title: 'Clairity',
+    info: 'At Clairity we want your engineering team to be happy, productive and get the most out of their jobs. Our AI powered Slack app makes it easy to run agile ceremonies, manage incidents, and capture qualitative metrics in real-time to help you achieve just that',
+    info2: 'Built with Tailwind, HTMX, Python, AWS and Slack API integration',
+    url: 'https://clairity.dev',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
     btnTxt: 'Listen Now',
     id: nanoid(),
     img: 'podcast_banner.png',
     title: 'Building With People For People: The Unfiltered Build Podcast',
-    info: 'As the host of "Building With People For People" podcast, every month I am joined by guests from all reaches of the software world to discuss their unique journeys, why we build software, discussions on a specific software related topic, and we examine problems they are solving through the products they are building',
-    info2: 'Built with Hugo and AWS Amplify',
+    info: 'As the host of "Building With People For People" podcast, every month I am joined by guests from all reaches of the software world to discuss their unique journeys, their problem space, and why we build software for people',
+    info2: 'Built with Hugo and AWS Amplify, released on all major podcast platforms',
     url: 'https://podcast.unfilteredbuild.com/',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,28 +59,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'secondstep.jpg',
     title: 'Committee For Children',
-    info: 'At Committee For Children our vision is "Safe children thriving in a peaceful world" and our north star goal is to "Positively transform the social-emotional well-being off 100 million chidren annually by 2028", currently, we reach over 10 million children',
+    info: 'At Committee For Children our vision is "Safe children thriving in a peaceful world" and our north star goal is to "Positively transform the social-emotional well-being off 100 million chidren annually by 2028", currently, we reach over 22 million children',
     info2: 'Built with React, Next.js, Node, MSSQL and Azure cloud services',
     url: 'https://www.secondstep.org',
     repo: '', // if no repo, the button will not show up
   },
-  {
-    btnTxt: 'Explore Now',
-    id: nanoid(),
-    img: 'get_space.png',
-    title: 'Get SPACE',
-    info: 'At Get SPACE we want your engineering team to be happy, productive and get the most out of their jobs. Our feedback platform makes it easy to capture qualitative metrics in real-time and trend this data overtime to help you achieve just that',
-    info2: 'Built with Tailwind, HTMX, Python and AWS',
-    url: 'https://www.getspace.dev',
-    repo: '', // if no repo, the button will not show up
-  },
+
   {
     btnTxt: '',
     id: nanoid(),
     img: 'cardgiants.jpg',
     title: 'Card Giants',
     info: 'Card Giants is an e-commerce site speciallizing in sales of sports cards and memorabilia',
-    info2: 'Built using PHP, Wordpress and WooCommerce',
+    info2: 'Built using Wordpress and optimized with Cloudflare',
     url: 'https://cardgiants.com',
     repo: '', // if no repo, the button will not show up
   },
